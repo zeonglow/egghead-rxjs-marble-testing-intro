@@ -1,0 +1,28 @@
+{
+  "name": "rxjs-training",
+  "type": "module",
+  "packageManager": "yarn@4.10.3",
+  "dependencies": {
+    "rxjs": "^7.8.2",
+    "ts-node": "^10.9.2"
+  },
+  "devDependencies": {
+    "@types/chai": "^5.2.3",
+    "@types/mocha": "^10.0.10",
+    "@types/node": "^24.10.0",
+    "chai": "^6.2.0",
+    "mocha": "^11.7.5",
+    "prettier": "^3.6.2",
+    "typescript": "^5.9.3"
+  },
+  "mocha": {
+    "v8-import": "./register.js"
+  },
+  "scripts": {
+    "test": "mocha test/*.test.ts"
+  },
+  "volta": {
+    "node": "24.11.0",
+    "yarn": "4.10.3"
+  }
+}
